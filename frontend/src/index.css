@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: var(--canvas, #f5f7f4);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--canvas, #f5f7f4);
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: #fff;
+  background: #6857c8;
+}
